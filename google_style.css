@@ -388,6 +388,19 @@ select {
 
 .blue_text {
     color: #12c;
+    text-decoration: none;
+}
+
+.blue_text:hover {
+    color: #12c;
+    text-decoration: underline;
+    cursor: grab;
+}
+
+.link_padding {
+    height: 18px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .format_type_spaces {
@@ -456,10 +469,10 @@ select {
 }
 
 .col1_footer {
-    display: inline-block;
-    min-width: 167px;
+    display: block;
+    min-width: 150px;
     min-height: 20px;
-    width: 20%;
+    /* width: 20%; */
 }
 
 .row {
