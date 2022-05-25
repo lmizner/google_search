@@ -97,11 +97,23 @@
 
 .text_link_format {
     display: block;
-    text-align: right;
     height: 46px;
     padding: 6px;
     margin-right: 10px;
     margin-top: 12px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+    margin-top: -24px;
+}
+
+.align-right-only {
+    text-align: right;
 }
 
 .button {
